@@ -228,6 +228,7 @@ ul{
 }
 .hotel__images {
     margin-right: 100px;
+    flex-shrink: 0;
 }
 .hotel__text{
     margin-bottom: 20px;
@@ -337,7 +338,6 @@ ul{
 }
 .footer{
     background-image: url("../images/footer.jpg");
-    height: 100vh;
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-top: 95px;
